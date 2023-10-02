@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+ }
+ .main{
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color:#9EDDFF ;
+ }
+ .profile-card
+ {
+     max-width: 430px;
+     width: 100%;
+     background: #A6F6FF;
+     border-radius: 40px;
+     padding: 70px;
+     padding-bottom:35px;
+     border: 1px solid #4070f4;
+     box-shadow: 0 5px 10px rgba(0, 0, 0 1);
+     transition: background-color 0.3s, transform 0.7s;
+    
+ }
+ .profile-card:hover {
+     transform: scale(1.05);
+   }
+   
+ .image
+ {
+     position: relative;   
+     height: 190px;
+     width: 190px;
+     border-radius: 50%;
+     background-color: #4070f4;
+     padding: 3px;
+     padding-top: 0px;
+     padding-left: 0px;
+     padding-right: 0px;
+     margin-bottom: 60px;   
+     margin: auto;
+ 
+ }
+ .image .profile-img
+ {
+     margin-top: 0px;
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+     border-radius: 50%;
+     border: 3px solid #fff;
+     
+ }
+ .profile-card .text-data
+ {
+     display: flex;
+     flex-direction: column;
+     align-items: left;
+     padding: 10px;
+    
+ }
+ .text-data .name
+ {
+    
+     font-size: 20px;
+     font-weight: 600;
+     margin-bottom: 10px;
+ }
+ .text-data .job
+ {
+     font-size: 15px;
+     font-weight: 400;
+ }
+ .media-buttons
+ {
+     display: flex;
+     align-items: center;
+     margin-top: 45px;
+     margin: auto;
+     justify-content: center;
+     margin-bottom: 0px;
+     padding: 10px;
+ }
+ .media-buttons .link
+ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4070f4;
+  font-size: 18px;
+   height: 34px;
+   width: 34px;
+   border-radius: 50%;
+   border: 1px solid #4070f4;
+   margin: 0 8px;
+   background-color:#9EDDFF ;
+   text-decoration: none;
+ }
+ 
+ 
